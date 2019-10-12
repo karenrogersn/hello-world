@@ -1,0 +1,62 @@
+/* style.css */
+body{
+  background: rgb(253,253,253);
+  color: blue;
+  font-size: 25px;
+  font-family: 'Fira Sans', sans-serif;
+  text-align:center; 
+}
+h1{
+  font-family: 'Mansalva';
+  color: red;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family: 'Mansalva';
+  color: pink;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("images/139H copy.jpg");
+  background-size:cover;
+  padding: 200px;
+  color: red;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: red;
+  font-size: 50px;
+}
+#banner p {
+  color: pink;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 20px;
+  background: rgb(30, 30, 20);
+  color: lightgrey;
+
+}
+#footer a {
+  color: grey;
+}
+
+#footer a:hover {
+  color: white;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter
+}
